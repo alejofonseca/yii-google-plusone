@@ -4,14 +4,14 @@ It was created based on the facebook-opengraph which is a more complex extension
 PHP SDK class) developed by Evan Johnson <thaddeusmt - A T - gmail.com> and available at his github site on 
 http://github.com/splashlab/yii-facebook-opengraph.
 
-////////////////////////////////////////////// INSTALLATION //////////////////////////////////////////////
+//////////////////////////////// INSTALLATION ////////////////////////////
 
 1. Create a folder named yii-google-plusone into YOUR_PROJECT/protected/extensions/
 2. Copy both files GPluginBase.php and GPlusoneButton.php into it.
 
 You are ready to go!
 
-///////////////////////////////////////////////// USAGE //////////////////////////////////////////////////
+////////////////////////////////// USAGE /////////////////////////////////
 
 Render Google Plusone Plugin using helper Yii widgets:
 
