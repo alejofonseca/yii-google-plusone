@@ -1,3 +1,29 @@
 This repository is an Yii extension for adding the google plusone button to website pages.
 
-It was created based on the facebook-opengraph which is a more complex extension developed by Evan Johnson <thaddeusmt - A T - gmail.com>
+It was created based on the facebook-opengraph which is a more complex extension (a wrapper for the Facebook
+PHP SDK class) developed by Evan Johnson <thaddeusmt - A T - gmail.com> and available at his github site on 
+http://github.com/splashlab/yii-facebook-opengraph.
+
+////////////////////////////////////////////// INSTALLATION //////////////////////////////////////////////
+
+1. Create a folder named yii-google-plusone into YOUR_PROJECT/protected/extensions/
+2. Copy both files GPluginBase.php and GPlusoneButton.php into it.
+
+You are ready to go!
+
+///////////////////////////////////////////////// USAGE //////////////////////////////////////////////////
+
+Render Google Plusone Plugin using helper Yii widgets:
+
+<?php
+$this->widget('ext.yii-google-plusone.GPlusoneButton', array(
+  		        'width'=>'290',
+			        'annotation'=>'inline',
+			        'href'=>'YOUR_DOMAIN',
+			        'lang'=>'es_ES'
+));
+?>
+
+You can adapt the parameters to your needs (width, language, annotation and href).
+
+I hope you can use this extension as it's a very simple way of including Goolge +1 to your site. 
