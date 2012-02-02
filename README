@@ -26,4 +26,9 @@ $this->widget('ext.yii-google-plusone.GPlusoneButton', array(
 
 You can adapt the parameters to your needs (width, language, annotation and href).
 
+Please log bugs to the GitHub tracker here.
+
+Extension is also posted on Yii website:
+http://www.yiiframework.com/extension/yii-google-plusone/
+
 I hope you can use this extension as it's a very simple way of including Goolge +1 to your site. 
