@@ -51,7 +51,7 @@ class GplusoneButton extends GPluginBase
 				  po.src = 'https://apis.google.com/js/plusone.js';
 				  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 				  })();";
-		Yii::app()->getClientScript()->registerScript('fb-async-callback', $script, CClientScript::POS_END);
+		Yii::app()->getClientScript()->registerScript('gplusone', $script, CClientScript::POS_END);
 	}
 }
 ?>
