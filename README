@@ -17,10 +17,10 @@ Render Google Plusone Plugin using helper Yii widgets:
 
 <?php
 $this->widget('ext.yii-google-plusone.GPlusoneButton', array(
-  		        'width'=>'290',
-			        'annotation'=>'inline',
-			        'href'=>'YOUR_DOMAIN',
-			        'lang'=>'es_ES'
+  	      'width'=>'290',
+	      'annotation'=>'inline',
+	      'href'=>'YOUR_DOMAIN',
+	      'lang'=>'es_ES'
 ));
 ?>
 
